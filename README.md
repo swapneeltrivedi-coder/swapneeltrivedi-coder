@@ -1,7 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
-  <img alt="swapneeltrivedi-coder's GitHub profile" src="light_mode.svg" />
-</picture>
+<p align="center">
+  <img
+    src="light_mode.svg"
+    width="850"
+    alt="swapneeltrivedi-coder's GitHub profile"
+  />
+</p>
 
 ## Hi there 👋
 
