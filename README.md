@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="light_mode.svg" width="850" alt="swapneeltrivedi-coder's GitHub profile" />
+  <img src="light_mode.svg" width="700" alt="swapneeltrivedi-coder's GitHub profile" />
 </p>
 
 ## Hi there 👋
