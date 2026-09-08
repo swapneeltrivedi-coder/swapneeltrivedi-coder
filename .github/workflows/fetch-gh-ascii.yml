@@ -1,0 +1,27 @@
+name: Fetch gh-ascii cards
+
+on:
+  push:
+    branches: [gh-ascii-fetch]
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download cards
+        run: |
+          curl -fL "https://gh.crafter.run/swapneeltrivedi-coder?theme=dark&cols=140" -o dark_mode.svg
+          curl -fL "https://gh.crafter.run/swapneeltrivedi-coder?theme=light&cols=140" -o light_mode.svg
+          file dark_mode.svg light_mode.svg
+          wc -c dark_mode.svg light_mode.svg
+      - name: Upload cards
+        uses: actions/upload-artifact@v4
+        with:
+          name: gh-ascii-cards
+          path: |
+            dark_mode.svg
+            light_mode.svg
