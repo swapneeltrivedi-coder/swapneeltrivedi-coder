@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="light_mode.svg"
+    src="light_mode_github_safe.svg"
     width="850"
     alt="swapneeltrivedi-coder's GitHub profile"
   />
