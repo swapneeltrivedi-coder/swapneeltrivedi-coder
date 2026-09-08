@@ -1,4 +1,6 @@
-<img src="light_mode.svg" width="100%" alt="swapneeltrivedi-coder's GitHub profile" />
+<p align="center">
+  <img src="light_mode.svg" width="850" alt="swapneeltrivedi-coder's GitHub profile" />
+</p>
 
 ## Hi there 👋
 
