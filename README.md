@@ -1,3 +1,5 @@
+<img src="light_mode.svg" width="100%" alt="swapneeltrivedi-coder's GitHub profile" />
+
 ## Hi there 👋
 
 <!--
